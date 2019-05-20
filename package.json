@@ -1,0 +1,43 @@
+{
+  "name": "zapi",
+  "version": "1.0.0",
+  "description": "API node, typeScript e SQLite",
+  "main": "server/server.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatozimmer/api-node-sqlite.git"
+  },
+  "keywords": [
+    "API",
+    "node",
+    "TypeScript",
+    "e",
+    "SQLite"
+  ],
+  "author": "Renato Zimmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatozimmer/api-node-sqlite/issues"
+  },
+  "homepage": "https://github.com/renatozimmer/api-node-sqlite#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "http": "0.0.0",
+    "morgan": "^1.9.1",
+    "sequelize-cli": "^5.4.0",
+    "sqlite-sync": "^0.3.8"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.1",
+    "@types/morgan": "^1.7.35",
+    "@types/sequelize": "^4.28.1",
+    "sequelize": "^5.8.6",
+    "ts-node": "^8.1.0"
+  }
+}
