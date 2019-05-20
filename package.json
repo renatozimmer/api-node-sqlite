@@ -2,9 +2,10 @@
   "name": "zapi",
   "version": "1.0.0",
   "description": "API node, typeScript e SQLite",
-  "main": "server/server.ts",
+  "main": "/server/server.ts",
   "scripts": {
     "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "builded": "node ./build/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,7 +31,8 @@
     "http": "0.0.0",
     "morgan": "^1.9.1",
     "sequelize-cli": "^5.4.0",
-    "sqlite-sync": "^0.3.8"
+    "sqlite-sync": "^0.3.8",
+    "typescript": "^3.4.5"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
