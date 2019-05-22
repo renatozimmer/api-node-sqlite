@@ -5,5 +5,6 @@ module.exports = {
   storage: '../../../db/ts-api.db3',
   host: 'localhost',
   serverPort: 3000,
+  secret: 'S3cr3t' 
 
 }

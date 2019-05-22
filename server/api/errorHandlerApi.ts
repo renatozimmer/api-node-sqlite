@@ -7,6 +7,6 @@ export function errorHandlerApi(err: ErrorRequestHandler,
   console.error(`Api error handler foi executado: ${err}`);
   res.status(500).json({
     errorCode: 'Err-001',
-    message: 'Error Interno do Servidor'
+    message: 'Error Interno do Servidor' 
   });
 }
